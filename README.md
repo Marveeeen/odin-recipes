@@ -9,4 +9,4 @@ This is a simple recipe website build with the use of HTML and CSS
 ## Authors
 
 Marvin Roque
-marveeeeeen@github.com
+jmvroqueee@github.com
