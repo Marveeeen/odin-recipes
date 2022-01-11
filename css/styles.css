@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+  
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px; 
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  line-height: 1.3;
+  font-weight: 600; 
+}
+
+p {
+  color: #9b9b9b;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 400; 
+}
+/** Home Page **/
+
+.container .jumbotron{
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#lumpia-tile, #tokneneng-tile, #jam-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #0a0413;
+    overflow: hidden;
+}
+
+#lumpia-tile span, #tokneneng-tile span, #jam-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+#lumpia-tile:hover, #tokneneng-tile:hover, #jam-tile:hover{
+    box-shadow: 0 1px 5px 1px #4e0606;
+}
+
+#lumpia-tile {
+    background: url('../images/lumpia.jfif') no-repeat;
+    background-position: center;
+}
+
+#tokneneng-tile {
+    background: url('../images/tokneneng.bmp') no-repeat;
+    background-position: center;
+}
+
+#jam-tile {
+    background: url('../images/yamjam.jfif') no-repeat;
+    background-position: center;
+}
+
+/** End of Home Page **/
+
+/** RECIPE PAGES **/
+
+#img-div {
+    background: 
+      linear-gradient(
+        to bottom,
+        rgba(3, 0, 0, 0),
+        rgba(0, 0, 0, 0.4)
+      );
+    margin-top: 30px;
+    
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+    overflow: hidden;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 75%;
+}
+
+.receipe-headline span {
+    font-size: 14px;
+    display: block;
+    color: #a4a4a4;
+    margin-bottom: 0; 
+}
+
+.receipe-headline h2 {
+    font-size: 36px;
+    color: #474747;
+    margin-bottom: 30px; 
+}
+
+.receipe-headline .receipe-duration {
+    border-left: 3px solid #40ba37;
+    padding: 15px; 
+}
+
+ .receipe-headline .receipe-duration h6 {
+   font-size: 15px;
+   margin-bottom: 5px; 
+}
+
+.receipe-headline .receipe-duration h6:last-child {
+     margin-bottom: 0; 
+}
+ 
+.receipe-ratings .ratings {
+  margin-bottom: 30px; 
+}
+
+.receipe-ratings i {
+  font-size: 18px;
+  color: #fbb710;
+  padding: 0 3px; 
+}
+
+.single-preparation-step {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px; 
+}
+
+.single-preparation-step h4 {
+    color: #474747;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60px;
+    flex: 0 0 60px;
+    max-width: 60px;
+    width: 60px;
+    margin-bottom: 0; 
+}
+
+.ingredients h4 {
+  color: #474747;
+  margin-bottom: 30px; 
+}
+
+.ingredients .custom-checkbox .custom-control-label::before {
+  border-radius: 0; 
+}
+
+.ingredients .custom-control-label::before {
+  width: 30px;
+  height: 30px;
+  background-color: #f3f5f8; 
+}
+
+.ingredients .custom-control {
+  padding-left: 2.5rem;
+  margin-bottom: 30px;
+  min-height: 35px; 
+}
+.ingredients .custom-control-label {
+  margin-bottom: 0;
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #2f2f2f; 
+}
